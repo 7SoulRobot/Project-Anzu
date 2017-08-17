@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "133b119f-ef7a-48eb-8361-f79d167f66af",
+            "Value": {
+                "id": "80e00d5e-a5fd-47e3-9f61-83817ee33773",
+                "resourcePath": "sprites\\spr_vision\\spr_vision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1749854c-fd51-4b0f-be07-85d0dd708a09",
             "Value": {
                 "id": "31a7cbc3-2365-469f-90a4-276f101fb9d1",

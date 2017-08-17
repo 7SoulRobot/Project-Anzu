@@ -1,6 +1,7 @@
 /// @description Character Movement
 
 max_spd = defaultspd;
+
 //Key Checks for Run/Sneak
 if keyboard_check(vk_lshift)
 {
@@ -10,18 +11,6 @@ if keyboard_check(vk_lshift)
 if keyboard_check(vk_lcontrol)
 {
 	max_spd = sneakspd;
-}
-
-//Diagnol Fix
-var diag = 0;
-if (hspd != 0 && vspd != 0)
-{
-	diag = 1;
-}
-
-if diag = 1
-{
-	max_spd = (max_spd * diag_const);
 }
 
 //Horizontal Movement
@@ -34,7 +23,7 @@ if hinput != 0
 }
 else
 {
-	hspd = lerp(hspd, 0, .3);
+	hspd = lerp(hspd, 0, fric);
 }
 
 //Vertical Movement
@@ -47,8 +36,9 @@ if vinput != 0
 }
 else
 {
-	vspd = lerp(vspd, 0, .3);
+	vspd = lerp(vspd, 0, fric);
 }
+
 
 //Horizontal Collision
 if place_meeting(x+hspd,y,obj_solid)
@@ -60,8 +50,6 @@ if place_meeting(x+hspd,y,obj_solid)
 	hspd = 0;
 }
 
-x+=hspd;
-
 //Vertical Collision
 if place_meeting(x,y+vspd,obj_solid)
 {
@@ -72,5 +60,13 @@ if place_meeting(x,y+vspd,obj_solid)
 	vspd = 0;
 }
 
-y+=vspd;
-
+if (hinput != 0 && vinput != 0)
+{
+	x += hspd * diag_const;
+	y += vspd * diag_const;
+}
+else
+{
+	x+=hspd;
+	y+=vspd;
+}
