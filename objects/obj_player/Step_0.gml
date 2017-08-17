@@ -1,62 +1,59 @@
-/// Character Movement
+/// @description Character Movement
 
-spd = defaultspd;
-
-var right = keyboard_check(ord("D"));
-var left = keyboard_check(ord("A"));
-var up = keyboard_check(ord("W"));
-var down = keyboard_check(ord("S"));
-
-//Key Checks
-
+max_spd = defaultspd;
+//Key Checks for Run/Sneak
 if keyboard_check(vk_lshift)
 {
-	spd = runspd;
+	max_spd = runspd;
 }
-
 
 if keyboard_check(vk_lcontrol)
 {
-	spd = sneakspd;
+	max_spd = sneakspd;
 }
 
-if (right)
+//Diagnol Fix
+var diag = 0;
+if (hspd != 0 && vspd != 0)
 {
-	hspd=spd;
+	diag = 1;
 }
 
-if (left)
+if diag = 1
 {
-	hspd=-spd;
+	max_spd = (max_spd * diag_const);
 }
 
-if (up)
+//Horizontal Movement
+var hinput = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+
+if hinput != 0
 {
-	vspd=-spd;
+	hspd += hinput*accel;
+	hspd = clamp(hspd, -max_spd, max_spd);
+}
+else
+{
+	hspd = lerp(hspd, 0, .3);
 }
 
-if (down)
+//Vertical Movement
+var vinput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+
+if vinput != 0
 {
-	vspd=spd;
+	vspd += vinput*accel;
+	vspd = clamp(vspd, -max_spd, max_spd);
 }
-
-//Friction
-
-if (!right && !left)
+else
 {
-	hspd = 0;
-}
-
-if (!up && !down)
-{
-	vspd = 0;
+	vspd = lerp(vspd, 0, .3);
 }
 
 //Horizontal Collision
-
-if(place_meeting(x+hspd,y,obj_solid))
+if place_meeting(x+hspd,y,obj_solid)
 {
-	while(!place_meeting(x+sign(hspd),y,obj_solid))
+	while !place_meeting(x+sign(hspd),y,obj_solid)
 	{
 		x+=sign(hspd);
 	}
@@ -66,10 +63,9 @@ if(place_meeting(x+hspd,y,obj_solid))
 x+=hspd;
 
 //Vertical Collision
-
-if(place_meeting(x,y+vspd,obj_solid))
+if place_meeting(x,y+vspd,obj_solid)
 {
-	while(!place_meeting(x,y+sign(vspd),obj_solid))
+	while !place_meeting(x,y+sign(vspd),obj_solid)
 	{
 		y+=sign(vspd);
 	}

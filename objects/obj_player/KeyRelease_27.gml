@@ -1,4 +1,4 @@
-/// End Game
+/// @description End Game
 
 
 game_end()
