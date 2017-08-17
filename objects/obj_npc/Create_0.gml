@@ -4,4 +4,4 @@
 defaultspd = 4;
 runspd = 10;
 spd = defaultspd;
-vision_alpha = .5;
+vis_alpha = .5
