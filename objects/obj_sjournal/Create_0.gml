@@ -83,6 +83,6 @@ than you will ever know!
 	Just today and tomorrow left. I'm not quite sure where to start today. I asked you 
 yesterday if it would be ok to delay things a couple days. You seemed more confused than
 anything else so it will probably be ok haha. <3 Maaaaaaybe I will work on enemy movement
-today? Idk though.
-
+today? Idk though. You just walked by with a sleeping cat in your arms! You're adorable!
+I'm gonna procrastinate a little bit now while I think about what to do next.
 	
