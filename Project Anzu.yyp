@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "e6aa1a1c-c181-400c-ae2d-d4955aeb364a",
+            "Value": {
+                "id": "9ec5c47a-9366-4301-a2b1-4318088716a6",
+                "resourcePath": "objects\\obj_sjournal\\obj_sjournal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "eb61e309-873f-40ee-a80f-5040ef794108",
             "Value": {
                 "id": "fc121897-7a90-481b-a88a-c60947f272bf",
