@@ -11,5 +11,5 @@ var yscale = (mouse_y > y)*2-1;
 
 
 //Draw enemy
-draw_sprite_ext(spr_enemy, 0, x, y, image_xscale, image_yscale, dir, image_blend, image_alpha);
+draw_sprite_ext(spr_enemy, 1, x, y, xscale, yscale, dir, image_blend, image_alpha);
 

@@ -43,6 +43,7 @@ else
 //Horizontal Collision
 if place_meeting(x+hspd,y,obj_solid)
 {
+	//Pixel perfect collision
 	while !place_meeting(x+sign(hspd),y,obj_solid)
 	{
 		x+=sign(hspd);
@@ -53,6 +54,7 @@ if place_meeting(x+hspd,y,obj_solid)
 //Vertical Collision
 if place_meeting(x,y+vspd,obj_solid)
 {
+	//Pixel perfect collision
 	while !place_meeting(x,y+sign(vspd),obj_solid)
 	{
 		y+=sign(vspd);
@@ -60,6 +62,15 @@ if place_meeting(x,y+vspd,obj_solid)
 	vspd = 0;
 }
 
+// Wiggle if moving
+if ((hinput != 0 || vinput != 0)) && alarm[0] <= 0
+{
+	xscale = lerp(image_xscale, image_xscale * squish, jiggle_spd);
+	yscale = lerp(image_yscale, image_yscale * stretch, jiggle_spd);
+	alarm[0] = wiggle_cooldown;
+}
+
+//Check for diagonal movement and adjust speed
 if (hinput != 0 && vinput != 0)
 {
 	x += hspd * diag_const;
@@ -70,3 +81,8 @@ else
 	x+=hspd;
 	y+=vspd;
 }
+
+
+// Move back to normal scale
+xscale = lerp(xscale, image_xscale, .025);
+yscale = lerp(yscale, image_yscale, .025);

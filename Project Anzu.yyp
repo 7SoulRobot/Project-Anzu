@@ -103,6 +103,22 @@
             }
         },
         {
+            "Key": "2d30358f-7303-48d0-8527-082ca2b5e9c4",
+            "Value": {
+                "id": "c980879d-63db-4c61-b2d5-ee16bf9df003",
+                "resourcePath": "objects\\obj_controller\\obj_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2fee0ea3-7dc8-4e5a-bb4f-295e91062808",
+            "Value": {
+                "id": "1a08be99-bf24-419e-bd17-e86d24e0064b",
+                "resourcePath": "sprites\\spr_player90\\spr_player90.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3547f273-71e6-405e-bc2b-aa216d793868",
             "Value": {
                 "id": "3cfc05a5-2c11-4b3b-9984-f1f8cbd26715",

@@ -1,7 +1,5 @@
 /// @description Variables
 // Set variables
-
-
 hspd = 0;
 vspd = 0;
 accel = 1;
@@ -11,6 +9,17 @@ runspd = 12;
 sneakspd = 2;
 max_spd = defaultspd;
 diag_const = 0.707;
+
+// Scale variables
+xscale = image_xscale;
+yscale = image_yscale;
+squish = 0.8;
+stretch = 1.2;
+jiggle_spd = .25;
+
+// Wiggle cooldown
+wiggle_cooldown = room_speed/2;
+alarm[0] = -1;
 
 // Map the keys
 keyboard_set_map(vk_right, ord("D"));

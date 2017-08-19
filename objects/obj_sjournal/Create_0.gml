@@ -85,4 +85,7 @@ yesterday if it would be ok to delay things a couple days. You seemed more confu
 anything else so it will probably be ok haha. <3 Maaaaaaybe I will work on enemy movement
 today? Idk though. You just walked by with a sleeping cat in your arms! You're adorable!
 I'm gonna procrastinate a little bit now while I think about what to do next.
+
+	I decided to make the player move in a jiggly kind of way because he reminds me of
+a cube of jello and also it's adorable! 
 	
