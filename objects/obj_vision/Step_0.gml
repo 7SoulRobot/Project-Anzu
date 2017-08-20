@@ -1,7 +1,7 @@
 /// @description Rotate the cone and change colors
 // Moves object around enemy
-direction = point_direction(x, y, mouse_x, mouse_y);
-image_angle = direction;
+var dir = point_direction(x, y, mouse_x, mouse_y);
+image_angle = dir;
 
 
 //Change cone to red when contacting player
