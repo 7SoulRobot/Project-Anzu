@@ -1,10 +1,33 @@
 /// @description Move towards the player
-// Move force
-var dir = point_direction(x, y, obj_player.x, obj_player.y);
+//Random movement
+randomdir = irandom_range(0, 4)
+if alarm[1] <= 0
+{
+	switch (randomdir)
+	{
+		case 0:
+			dir = point_direction(x, y, x, y);
+			break;
+		case 1:
+			dir = point_direction(x, y, x, y - max_spd);
+			break;
+		case 2:
+			dir = point_direction(x, y, x, y + max_spd);
+			break;
+		case 3:
+			dir = point_direction(x, y, x - max_spd, y);
+			break;
+		case 4:
+			dir = point_direction(x, y, x + max_spd, y);
+			break;
+	}
+	alarm[1] = change_dir;
+}
+
 hspd = lengthdir_x(max_spd, dir);
 vspd = lengthdir_y(max_spd, dir);
 
-scr_move();
+scr_move_enemy();
 scr_movepush();
 
 // Slow pushing speed when there is no collision
@@ -21,7 +44,7 @@ if hp <= 0
 }
 
 // Wiggle the sprite
-if alarm[0] <= 0
+if ((hspd != 0 || vspd != 0) && alarm[0] <= 0)
 {
 	scr_wiggle();
 }

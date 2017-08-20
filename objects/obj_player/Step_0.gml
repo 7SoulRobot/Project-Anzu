@@ -82,3 +82,44 @@ if ((hinput != 0 || vinput != 0)) && alarm[0] <= 0
 // Move back to normal scale
 xscale = lerp(xscale, image_xscale, .025);
 yscale = lerp(yscale, image_yscale, .025);
+
+// Temporary sprite facing code
+if hinput < 0
+{
+ dir = 180;
+}
+
+if hinput > 0
+{
+	dir = 0;
+}
+
+if vinput < 0
+{
+	dir = 90;
+}
+
+if vinput > 0
+{
+	dir = 270;
+}
+
+if hinput < 0 && vinput < 0
+{
+	dir = 135;
+}
+
+if hinput < 0 && vinput > 0
+{
+	dir = 225;
+}
+
+if hinput > 0 && vinput < 0
+{
+	dir = 45;
+}
+
+if hinput > 0 && vinput > 0
+{
+	dir = 315;
+}

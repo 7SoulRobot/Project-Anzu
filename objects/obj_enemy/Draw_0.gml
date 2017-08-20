@@ -1,6 +1,6 @@
 /// @description Draw enemy and rotate it
 // draw enemy sprite
-var dir = point_direction(x, y, mouse_x, mouse_y);
+//dir = point_direction(x, y, mouse_x, mouse_y);
 
 //Flip sprite when looking left
 /*

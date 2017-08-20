@@ -1,6 +1,6 @@
 /// @description Draw player and rotate it
 // draw player sprite
-var dir = point_direction(x, y, mouse_x, mouse_y);
+//var dir = point_direction(x, y, mouse_x, mouse_y);
 
 // Make collisions change with angle
 //image_angle = dir;

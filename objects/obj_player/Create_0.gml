@@ -1,9 +1,13 @@
 /// @description Variables
+// Set the seed
+randomise();
+
 // Set variables
 hspd = 0;
 vspd = 0;
 defaultspd = 5;
 diag_const = 0.707;
+dir = 270;
 runspd = 12;
 sneakspd = 2;
 max_spd = defaultspd;
