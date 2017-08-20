@@ -100,4 +100,12 @@ wait to watch Boku no Hero, but you're making me wait anyways! Guh! ANYWAYS... I
 
 - Love, Andrew
 */
+
+/* 8/20/17
+	I'm really exhausted from going to the fair yesterday, but I got a lot done anyways!
+Today I added basic enemy movement like I had planned to do 2 days ago. For now they
+just move towards the player, but later I'll make it so they move along paths or randomly.
+I'm probably going to do more today, but it's time for a break. Tomorrow is the big day
+after all! Of course you don't know that though. ;)
+
 	

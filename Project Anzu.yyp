@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "05772068-6876-4f73-ba6d-5709ea24d650",
+            "Value": {
+                "id": "7bb2d78a-cdd7-4375-9f13-b5640175e4ce",
+                "resourcePath": "scripts\\scr_movepush\\scr_movepush.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0580cf85-0c62-46c6-a696-62f518002719",
             "Value": {
                 "id": "cd21e3aa-f40e-431a-98ea-87bb319ba09e",
@@ -263,6 +271,14 @@
             }
         },
         {
+            "Key": "b17a2e96-7b62-4c9e-a9c4-9df40fd677d5",
+            "Value": {
+                "id": "18ccb461-73fc-490a-b270-60fd6ebd6a81",
+                "resourcePath": "scripts\\scr_diagmove\\scr_diagmove.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bb4b6cc3-d43b-42dd-8fb5-e5c12b60e32e",
             "Value": {
                 "id": "9109659f-b0b3-4a06-9d21-3c7914449a4e",
@@ -276,6 +292,14 @@
                 "id": "9c94bf1c-0464-4b95-ad18-10f7d455f38e",
                 "resourcePath": "tilesets\\tile_grocery\\tile_grocery.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "bdeb0211-b271-4bf1-a157-0a7176cafb2d",
+            "Value": {
+                "id": "bd9325b6-e2cd-4886-9d3f-a5765b995ef1",
+                "resourcePath": "scripts\\scr_move\\scr_move.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -359,16 +383,35 @@
             }
         },
         {
+            "Key": "eea98e0c-e12a-4630-8b55-85492c645fa6",
+            "Value": {
+                "id": "378433d8-2df6-4fbb-9c5a-bacbd157b552",
+                "resourcePath": "objects\\obj_bomb\\obj_bomb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "6b93ac9e-166b-4fe2-a26c-f42e75f2ee48",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "f49040ca-dace-435d-a6f7-7803371c1f33",
+            "Value": {
+                "id": "c92eae16-7d42-4b0c-8a52-af77914fe49b",
+                "resourcePath": "scripts\\scr_wiggle\\scr_wiggle.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
-        
+        "bdeb0211-b271-4bf1-a157-0a7176cafb2d",
+        "b17a2e96-7b62-4c9e-a9c4-9df40fd677d5",
+        "f49040ca-dace-435d-a6f7-7803371c1f33",
+        "05772068-6876-4f73-ba6d-5709ea24d650"
     ],
     "tutorial": ""
 }

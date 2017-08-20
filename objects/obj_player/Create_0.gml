@@ -2,13 +2,13 @@
 // Set variables
 hspd = 0;
 vspd = 0;
-accel = 1;
-fric = 0.15;
 defaultspd = 5;
+diag_const = 0.707;
 runspd = 12;
 sneakspd = 2;
 max_spd = defaultspd;
-diag_const = 0.707;
+accel = 1;
+fric = 0.15;
 
 // Scale variables
 xscale = image_xscale;
