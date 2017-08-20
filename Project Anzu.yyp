@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "ab3111d2-ba21-44ad-8a59-b00110042fc3",
+            "Value": {
+                "id": "9dafb64c-80d2-42f0-aa2d-10c05c27aed4",
+                "resourcePath": "fonts\\fnt_secret\\fnt_secret.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "b17a2e96-7b62-4c9e-a9c4-9df40fd677d5",
             "Value": {
                 "id": "18ccb461-73fc-490a-b270-60fd6ebd6a81",

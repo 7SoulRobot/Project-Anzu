@@ -3,6 +3,7 @@
 /* camera_set_view_pos(view_camera[0],xpos,180);
 xpos = max(xpos-0.3,0);
 */
+holdspace = 0;
 
 // Changes alpha to fade in/out
 if (!fadeout) a = max(a-0.005,0.1); else a = min(a+0.005,1);
@@ -14,13 +15,16 @@ let += 0.2;
 print = string_copy(str,1,let);
 
 //Move to next line after set time
-if (let > string_length(str)+40) && (next < array_length_1d(strings)-1)
+if (let > string_length(str)+10) && (next < array_length_1d(strings)-1)
 {
-	let = 0;
-	next++;
-	if (next == array_length_1d(strings)-1) holdspace++;
+	holdspace = 1;
+	if (keyboard_check(ord("E")))
+	{
+		let = 0;
+		next++;
+		if (next == array_length_1d(strings)-1) holdspace++;
+	}
 }
-
 
 // Sets str to hold next line
 str = strings[next];
