@@ -1,4 +1,3 @@
 /// @description End Game
 
-
-game_end()
+game_end();

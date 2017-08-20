@@ -74,6 +74,8 @@ else
 // Wiggle if moving
 if ((hinput != 0 || vinput != 0)) && alarm[0] <= 0
 {
+	audio_emitter_pitch(snd_emit, random_range(.8, 1.2))
+	audio_play_sound_on(snd_emit, snd_bounce, false, 0);
 	scr_wiggle();
 }
 

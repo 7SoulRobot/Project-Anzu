@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "b23386da-41f7-4652-a875-50e79bd5c820",
+            "Value": {
+                "id": "7b5f3212-90bb-4f5b-ad41-61b2fd75a1a7",
+                "resourcePath": "sounds\\snd_bounce\\snd_bounce.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "bb4b6cc3-d43b-42dd-8fb5-e5c12b60e32e",
             "Value": {
                 "id": "9109659f-b0b3-4a06-9d21-3c7914449a4e",
