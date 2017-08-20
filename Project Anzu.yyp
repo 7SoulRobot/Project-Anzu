@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "eda8a230-127e-4d3c-92f3-2c71296984f6",
+            "Value": {
+                "id": "2aaab281-de68-4b03-957b-88ae039a7b89",
+                "resourcePath": "objects\\obj_bus_ads\\obj_bus_ads.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "edfd24f9-6044-4b4c-a74d-b7294f9c2ac5",
             "Value": {
                 "id": "2c947bf7-5742-4dcb-86f0-921379e4998e",

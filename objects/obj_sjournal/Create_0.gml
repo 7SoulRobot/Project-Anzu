@@ -87,5 +87,17 @@ today? Idk though. You just walked by with a sleeping cat in your arms! You're a
 I'm gonna procrastinate a little bit now while I think about what to do next.
 
 	I decided to make the player move in a jiggly kind of way because he reminds me of
-a cube of jello and also it's adorable! 
+a cube of jello and also it's adorable! I love you more than jello!
+
+- Love, Andrew
+*/
+
+/* 8/19/17
+	Happy 11 year anniversary!!! We went to the fair today so I don't think I'll get much
+work done today, but I wanted to let you know how much I love you anyway! *It's a lot!*
+Oh! I'll write down the ideas we had for in game bus ads! That's what I'll do! I can't
+wait to watch Boku no Hero, but you're making me wait anyways! Guh! ANYWAYS... I love you!
+
+- Love, Andrew
+*/
 	
