@@ -108,4 +108,13 @@ just move towards the player, but later I'll make it so they move along paths or
 I'm probably going to do more today, but it's time for a break. Tomorrow is the big day
 after all! Of course you don't know that though. ;)
 
+	Later I made it so they move randomly, that was fast. I'm really excited about tomorrow.
+I wonder if you know it's happening tomorrow? Let's hope not! I love you more than
+anything in the entire multiverse! Even more than alternate version of you! Haha now I'm
+just being weird because I'm tired. We have to wake up early in the morning. I better
+stop typing because you are done brushing your teeth now. I love you!
+
+- Love, Andrew
+*/
+
 	
