@@ -117,4 +117,17 @@ stop typing because you are done brushing your teeth now. I love you!
 - Love, Andrew
 */
 
-	
+/* 8/21/17
+	Today is finally the day! April and my mom are coming over pretty much just so that
+April can record this for me. I didn't think I would do any more work before they got here,
+but I thought up some code at work today. I added in a "secret" door to take you to the
+secret room. I was originally just going to say, "Hey, push this button." and then it
+would happen. I must be getting better at programming though because at work today
+I just thought up how to make doors work. Then I came home and made a door that works.
+Go me! I'm rambling now I think. I love you darling! I'm so excited for later tonight!
+You're going to be my fiance! I don't know how to type accents, but I know that word is
+supposed to have one haha. Oooooookkkkk now I REALLY am rambling. I love you soooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+much Boobah!
+
+- Love, Andrew
+*/

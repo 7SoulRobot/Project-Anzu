@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "16fe13bf-6215-4039-9faf-41431814cc1b",
+            "Value": {
+                "id": "828877d8-88dc-4855-9356-22cb8cb16940",
+                "resourcePath": "objects\\obj_doortrigger\\obj_doortrigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1749854c-fd51-4b0f-be07-85d0dd708a09",
             "Value": {
                 "id": "31a7cbc3-2365-469f-90a4-276f101fb9d1",
@@ -260,6 +268,14 @@
                 "id": "61ddf64e-fec7-4316-8414-6e6dc31d6aca",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9c8422a9-434f-4d30-bc35-30f9ec170eaa",
+            "Value": {
+                "id": "9050035f-485e-4734-9eed-03ba52f9040e",
+                "resourcePath": "sprites\\spr_secretdoor\\spr_secretdoor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
