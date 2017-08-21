@@ -1,0 +1,1 @@
+audio_play_sound(msc_next_to_you,2,true);

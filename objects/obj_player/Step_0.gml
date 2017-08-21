@@ -12,6 +12,7 @@ if keyboard_check(vk_lcontrol)
 {
 	max_spd = sneakspd;
 }
+wiggle_cooldown = (room_speed*defaultspd)/max_spd;
 
 //Horizontal Movement
 var hinput = keyboard_check(ord("D")) - keyboard_check(ord("A"));

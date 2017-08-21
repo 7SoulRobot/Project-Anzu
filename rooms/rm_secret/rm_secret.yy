@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "name": "rm_secret",
     "IsDnD": false,
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -51,7 +51,7 @@
                     "m_serialiseFrozen": false,
                     "name": "graphic_5B31AFD3",
                     "x": 704,
-                    "y": 448,
+                    "y": 544,
                     "animationFPS": 0,
                     "animationSpeedType": 0,
                     "colour": {
@@ -75,7 +75,7 @@
                     "m_serialiseFrozen": false,
                     "name": "graphic_18D00292",
                     "x": 960,
-                    "y": 448,
+                    "y": 544,
                     "animationFPS": 0,
                     "animationSpeedType": 0,
                     "colour": {
@@ -281,8 +281,8 @@
             "name": "Tiles_1",
             "userdefined_depth": false,
             "visible": true,
-            "prev_tileheight": 128,
-            "prev_tilewidth": 128,
+            "prev_tileheight": 64,
+            "prev_tilewidth": 64,
             "tiles": {
                 "SerialiseData": null,
                 "SerialiseHeight": 17,

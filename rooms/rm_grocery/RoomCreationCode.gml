@@ -1,0 +1,1 @@
+audio_play_sound(msc_night_prowler,1,true);

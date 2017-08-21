@@ -22,7 +22,7 @@ stretch = 1.2;
 jiggle_spd = .25;
 
 // Wiggle cooldown
-wiggle_cooldown = room_speed/1;
+wiggle_cooldown = (room_speed*defaultspd)/max_spd;
 alarm[0] = -1;
 
 // Create sound emitter

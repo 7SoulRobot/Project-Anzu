@@ -151,11 +151,27 @@
             }
         },
         {
+            "Key": "4825d1fc-4780-4ede-ba13-3edd93a29ad7",
+            "Value": {
+                "id": "b8f591cb-ffd2-45de-a56b-18402646c818",
+                "resourcePath": "sounds\\msc_night_prowler\\msc_night_prowler.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "48272f5c-bb96-4d2c-98e1-0976b3876852",
             "Value": {
                 "id": "4b99809d-2037-4c2e-bb43-c578c505c8db",
                 "resourcePath": "sprites\\spr_grocerytile\\spr_grocerytile.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4c66c390-e758-48d6-8a36-e7f2342a7296",
+            "Value": {
+                "id": "8ad491f0-9217-4088-b159-e9037aa33bcc",
+                "resourcePath": "scripts\\scr_wave\\scr_wave.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -335,6 +351,14 @@
             }
         },
         {
+            "Key": "cf87a536-f2db-4881-b6dc-3744397cf1d3",
+            "Value": {
+                "id": "d4ca2761-1329-4cc0-ae09-1c5fa2d66f79",
+                "resourcePath": "sounds\\msc_next_to_you\\msc_next_to_you.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d05107eb-ccca-4489-adfb-e38bdc9fda14",
             "Value": {
                 "id": "0dcd51d9-2636-4d66-8765-42c61a273a47",
@@ -407,6 +431,14 @@
             }
         },
         {
+            "Key": "f1076378-b31b-4e8e-85e5-9133b8d37c6a",
+            "Value": {
+                "id": "2b77f191-da7a-4ca3-8ee4-42aa9cbfabf3",
+                "resourcePath": "sounds\\snd_blip\\snd_blip.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "6b93ac9e-166b-4fe2-a26c-f42e75f2ee48",
@@ -428,7 +460,8 @@
         "b17a2e96-7b62-4c9e-a9c4-9df40fd677d5",
         "f49040ca-dace-435d-a6f7-7803371c1f33",
         "05772068-6876-4f73-ba6d-5709ea24d650",
-        "6a305131-9a55-44bc-82b8-b9166a55a73c"
+        "6a305131-9a55-44bc-82b8-b9166a55a73c",
+        "4c66c390-e758-48d6-8a36-e7f2342a7296"
     ],
     "tutorial": ""
 }
