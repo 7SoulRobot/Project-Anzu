@@ -130,4 +130,10 @@ supposed to have one haha. Oooooookkkkk now I REALLY am rambling. I love you soo
 much Boobah!
 
 - Love, Andrew
+
+	Ermahgerd it was so hard to get you in here to do the proposal! Of all the days to
+put on a face mask! I'm glad you liked reading this journal. <3 I'm really tired right now though
+so I'm going to journal more about this tomorrow. Good night!
+
+- Love, Andrew
 */
