@@ -105,30 +105,6 @@
                     "scaleY": 1,
                     "spriteId": "9c8422a9-434f-4d30-bc35-30f9ec170eaa",
                     "userdefined_animFPS": false
-                },
-                {
-                    "__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat",
-                    "id": "99e639e5-3ddc-4484-b7c8-648c77d70423",
-                    "modelName": "GMRSpriteGraphic",
-                    "mvc": "1.0",
-                    "ignore": false,
-                    "inheritItemSettings": false,
-                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
-                    "m_serialiseFrozen": false,
-                    "name": "graphic_59D22056",
-                    "x": 672,
-                    "y": 288,
-                    "animationFPS": 15,
-                    "animationSpeedType": 0,
-                    "colour": {
-                        "Value": 4294967295
-                    },
-                    "frameIndex": 0,
-                    "rotation": 0,
-                    "scaleX": 1,
-                    "scaleY": 1,
-                    "spriteId": "ababf61c-6984-47a9-aaa8-720e94ee6530",
-                    "userdefined_animFPS": false
                 }
             ]
         },
