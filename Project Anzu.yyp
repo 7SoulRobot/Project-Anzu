@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "bde7b9eb-78fe-4f65-9655-1b3755772c69",
+            "Value": {
+                "id": "c055749b-3c2d-48bb-8c50-a6bfd8831619",
+                "resourcePath": "sprites\\spr_grocerytileHeidi\\spr_grocerytileHeidi.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bdeb0211-b271-4bf1-a157-0a7176cafb2d",
             "Value": {
                 "id": "bd9325b6-e2cd-4886-9d3f-a5765b995ef1",
@@ -364,6 +372,14 @@
                 "id": "a08ee647-2513-470c-9c2d-05af7d378c05",
                 "resourcePath": "views\\c515315c-9e69-42ff-801c-82dcea7f13dd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c7c9eb84-0cac-4082-8712-90efd66aaee3",
+            "Value": {
+                "id": "f60388d1-265a-486d-bd15-7c9a082de264",
+                "resourcePath": "sprites\\spr_reference\\spr_reference.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
