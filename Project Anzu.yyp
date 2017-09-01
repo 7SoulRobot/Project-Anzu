@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "8eedaabb-0cf8-4bc1-8394-1101de2db2f9",
+            "Value": {
+                "id": "2c1f7248-e107-4d75-95c9-eff23a7f694b",
+                "resourcePath": "sprites\\spr_grocerytileHeidi3\\spr_grocerytileHeidi3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9227da56-e6ce-4595-af20-03f19547f90d",
             "Value": {
                 "id": "a2d36bdd-6072-46cf-a0b4-649322405993",
