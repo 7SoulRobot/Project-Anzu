@@ -167,14 +167,6 @@
             }
         },
         {
-            "Key": "48272f5c-bb96-4d2c-98e1-0976b3876852",
-            "Value": {
-                "id": "4b99809d-2037-4c2e-bb43-c578c505c8db",
-                "resourcePath": "sprites\\spr_grocerytile\\spr_grocerytile.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "4c66c390-e758-48d6-8a36-e7f2342a7296",
             "Value": {
                 "id": "8ad491f0-9217-4088-b159-e9037aa33bcc",
@@ -258,7 +250,7 @@
             "Key": "8eedaabb-0cf8-4bc1-8394-1101de2db2f9",
             "Value": {
                 "id": "2c1f7248-e107-4d75-95c9-eff23a7f694b",
-                "resourcePath": "sprites\\spr_grocerytileHeidi3\\spr_grocerytileHeidi3.yy",
+                "resourcePath": "sprites\\spr_grocerytile\\spr_grocerytile.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -362,7 +354,7 @@
             "Key": "bde7b9eb-78fe-4f65-9655-1b3755772c69",
             "Value": {
                 "id": "c055749b-3c2d-48bb-8c50-a6bfd8831619",
-                "resourcePath": "sprites\\spr_grocerytileHeidi\\spr_grocerytileHeidi.yy",
+                "resourcePath": "sprites\\_spr_grocerytile_old\\_spr_grocerytile_old.yy",
                 "resourceType": "GMSprite"
             }
         },
