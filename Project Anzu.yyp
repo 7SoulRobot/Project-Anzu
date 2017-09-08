@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "60e32a80-f54c-44f0-b371-d77066c0d824",
+            "Value": {
+                "id": "a1e5a6b2-f7c5-48fb-a76c-f6dd2e3119ec",
+                "resourcePath": "sprites\\spr_heidi_grocery_tile_dark\\spr_heidi_grocery_tile_dark.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "67167b25-149b-43b0-96fb-b47ee62cf1e6",
             "Value": {
                 "id": "3a8e2e71-6030-41be-a9de-4944b58c7507",
@@ -367,6 +375,14 @@
             }
         },
         {
+            "Key": "c4bd247d-6bb8-4eed-a383-fa32bc921d9e",
+            "Value": {
+                "id": "0447d214-4e48-4ccf-9f54-21620a13020b",
+                "resourcePath": "sprites\\spr_heidi_grocery_tile_med\\spr_heidi_grocery_tile_med.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c515315c-9e69-42ff-801c-82dcea7f13dd",
             "Value": {
                 "id": "a08ee647-2513-470c-9c2d-05af7d378c05",
@@ -476,6 +492,14 @@
                 "id": "2b77f191-da7a-4ca3-8ee4-42aa9cbfabf3",
                 "resourcePath": "sounds\\snd_blip\\snd_blip.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "f1ace2d7-0565-417d-9f07-0f182529c077",
+            "Value": {
+                "id": "a3a369e0-6593-4ab5-852e-6959e938da70",
+                "resourcePath": "sprites\\spr_heidi_grocery_tile_lite\\spr_heidi_grocery_tile_lite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

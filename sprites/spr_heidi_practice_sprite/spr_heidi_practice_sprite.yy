@@ -8,7 +8,7 @@
     "VTile": false,
     "bbox_bottom": 127,
     "bbox_left": 16,
-    "bbox_right": 114,
+    "bbox_right": 113,
     "bbox_top": 3,
     "bboxmode": 0,
     "colkind": 1,
@@ -40,6 +40,13 @@
                     "mvc": "1.0",
                     "FrameId": "334357ef-ea18-4cdb-af76-8edf861414d1",
                     "LayerId": "dac9f70c-e18c-4c34-beed-69175883c1cb"
+                },
+                {
+                    "id": "6502d8c9-e377-4a21-9e61-e8438195b7d5",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "334357ef-ea18-4cdb-af76-8edf861414d1",
+                    "LayerId": "364552b9-2e21-40f7-aea6-e539f9ae8314"
                 }
             ]
         }
@@ -48,6 +55,17 @@
     "gridY": 0,
     "height": 128,
     "layers": [
+        {
+            "id": "364552b9-2e21-40f7-aea6-e539f9ae8314",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "ababf61c-6984-47a9-aaa8-720e94ee6530",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "flowers",
+            "opacity": 100,
+            "visible": true
+        },
         {
             "id": "dac9f70c-e18c-4c34-beed-69175883c1cb",
             "modelName": "GMImageLayer",
@@ -74,6 +92,7 @@
     "origin": 4,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
+    "premultiplyAlpha": false,
     "sepmasks": false,
     "swatchColours": null,
     "swfPrecision": 2.525,
