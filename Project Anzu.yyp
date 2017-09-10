@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "045bada6-06b5-40fc-a2b0-17e356ad45a1",
+            "Value": {
+                "id": "b37bacfe-e65d-43f5-a9a0-5c20ce8dc0d1",
+                "resourcePath": "sprites\\spr_ugly_fat_man\\spr_ugly_fat_man.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "05772068-6876-4f73-ba6d-5709ea24d650",
             "Value": {
                 "id": "7bb2d78a-cdd7-4375-9f13-b5640175e4ce",
@@ -259,6 +267,14 @@
             "Value": {
                 "id": "2c1f7248-e107-4d75-95c9-eff23a7f694b",
                 "resourcePath": "sprites\\spr_grocerytile\\spr_grocerytile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8f079c62-0a9b-485c-84e3-6ef3c5f73ac2",
+            "Value": {
+                "id": "c22fdaa4-8255-428b-af93-14c23cfeb1c4",
+                "resourcePath": "sprites\\sprite16\\sprite16.yy",
                 "resourceType": "GMSprite"
             }
         },
