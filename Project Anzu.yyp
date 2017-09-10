@@ -274,7 +274,15 @@
             "Key": "8f079c62-0a9b-485c-84e3-6ef3c5f73ac2",
             "Value": {
                 "id": "c22fdaa4-8255-428b-af93-14c23cfeb1c4",
-                "resourcePath": "sprites\\sprite16\\sprite16.yy",
+                "resourcePath": "sprites\\spr_pink_hair\\spr_pink_hair.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "90629367-22a0-4b15-8ccd-75e9d44eb206",
+            "Value": {
+                "id": "2a75671f-78da-44bf-86f7-32d1ff8180c1",
+                "resourcePath": "sprites\\spr_bee_endcap\\spr_bee_endcap.yy",
                 "resourceType": "GMSprite"
             }
         },
