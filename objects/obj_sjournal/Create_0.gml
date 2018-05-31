@@ -137,3 +137,18 @@ so I'm going to journal more about this tomorrow. Good night!
 
 - Love, Andrew
 */
+
+/* 5/31/18
+	Wow, I can't believe it's been 9 months since I worked on the game. I'm pretty sad about it, but
+I feel reinvigorated now. I've been really upset about the news of TotalBiscuit dying. It has made me 
+realize how fleeting life can be, and I need to start working on my dreams more consistently. I'm very
+excited to get back into it and I hope that you will join me! Our wedding is coming up soon and
+we've been very busy because of it. I'm going to do my best to keep working on the game at least once a
+day.
+
+	So far today I've mostly just been remembering what all my code does. I also fixed the tiles in the 
+secret room using the new(ish) sprites you made me!
+
+-Love, Andrew
+*/
+
