@@ -1,1 +1,1 @@
-audio_play_sound(msc_night_prowler,1,true);
+audio_play_sound(msc_next_to_you,1,true);
