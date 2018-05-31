@@ -152,4 +152,3 @@ secret room using the new(ish) sprites you made me!
 -Love, Andrew
 */
 
-*/ 
