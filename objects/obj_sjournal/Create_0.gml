@@ -147,7 +147,9 @@ we've been very busy because of it. I'm going to do my best to keep working on t
 day.
 
 	So far today I've mostly just been remembering what all my code does. I also fixed the tiles in the 
-secret room using the new(ish) sprites you made me!
+secret room using the new(ish) sprites you made me! Later I added soft collisions between the enemies and
+the player. I also finally figured out how to make my source control work completely from inside
+GameMaker. I'm so excited!
 
 -Love, Andrew
 */
